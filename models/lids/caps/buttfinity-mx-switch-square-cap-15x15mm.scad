@@ -1,0 +1,33 @@
+include <../../libs/cherrymx.scad>;
+include <../../libs/BOSL2/std.scad>;
+
+$fn = 128;
+
+module SquareMXSwitchCap15x15mm() {
+  w2 = 7.2;
+  h2 = 5.56;
+
+  w = 14.8;
+  h = 14.8;
+
+  thickness = 1.4;
+  difference() {
+    cuboid([w, h, 6], rounding=1, edges=[TOP, "Z"]);
+
+    translate([0, 0, -6])
+      union() {
+        translate([0, 0, 11])
+          CherryMX();
+      }
+
+    translate([0, 0, -0.6])
+      difference() {
+        cuboid([w - 1, h - 1, 5.4], rounding=0.7, edges=[TOP, "Z"]);
+
+        translate([0, 0, 2])
+          cuboid([w2 - thickness, h2 - thickness, 6]);
+      }
+  }
+}
+
+SquareMXSwitchCap15x15mm();

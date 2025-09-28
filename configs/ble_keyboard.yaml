@@ -1,0 +1,46 @@
+external_components:
+  - source: github://dmamontov/esphome-blekeyboard
+
+ble_keyboard:
+  id: my_ble_keyboard
+  name: "Buttfinity BLE Keyboard"
+  manufacturer_id: "Buttfinity"
+  reconnect: true
+  battery_level: 50
+  buttons: true
+
+button:
+  - platform: restart
+    entity_category: "config"
+    name: "Restart"
+
+  - platform: template
+    name: "Start advertising"
+    id: start_advertising
+    icon: "mdi:play"
+    on_press:
+      then:
+        - ble_keyboard.start: my_ble_keyboard
+
+  - platform: template
+    name: "Stop advertising"
+    id: stop_advertising
+    icon: "mdi:stop"
+    on_press:
+      then:
+        - ble_keyboard.stop: my_ble_keyboard
+
+# example switch thats connected to GPIO22
+# and types "hello world" when pressed
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO22
+      mode: INPUT_PULLUP
+      inverted: true
+    name: "Button"
+    on_press:
+      - ble_keyboard.print:
+          id: my_ble_keyboard 
+          text: "hello world"
+    
