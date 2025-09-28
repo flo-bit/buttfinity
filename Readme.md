@@ -1,9 +1,8 @@
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/bb6dcea4-6ba7-4273-a05c-60daa530b5c2" style="max-width: 48%; height: auto;">
-  <img src="https://github.com/user-attachments/assets/b4aa0239-0bcb-4e3e-81cd-34e669d3a1d7" style="max-width: 48%; height: auto;">
-</div>
+![buttfinity1](https://github.com/user-attachments/assets/7be77395-7d78-468e-be83-d2ecec9adc5f)
 
 # Buttfinity
+
+![buttfinity2](https://github.com/user-attachments/assets/d5923fe3-c8ad-45be-b2aa-9161dcbe902f)
 
 Modular, customizable buttons (and other controls) in a gridfinity layout, allowing you to:
 
