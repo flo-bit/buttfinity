@@ -2,6 +2,10 @@
 
 # Buttfinity
 
+
+[Print profile here](https://makerworld.com/en/models/1834693-buttfinity-smart-gridfinity-buttons) all models can also be found in the `stls/` folder.
+
+
 Modular, customizable buttons (and other controls) in a gridfinity layout, allowing you to:
 
 - control your computer (as a "fake" keyboard, either as a BLE keyboard using a ESP32 or as HID usb device using a RP2040 (no tutorial yet for that))
