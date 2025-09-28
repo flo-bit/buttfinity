@@ -2,8 +2,6 @@
 
 # Buttfinity
 
-![buttfinity2](https://github.com/user-attachments/assets/d5923fe3-c8ad-45be-b2aa-9161dcbe902f)
-
 Modular, customizable buttons (and other controls) in a gridfinity layout, allowing you to:
 
 - control your computer (as a "fake" keyboard, either as a BLE keyboard using a ESP32 or as HID usb device using a RP2040 (no tutorial yet for that))
@@ -51,3 +49,6 @@ Built with:
 ## License
 
 Everything in this repository (excluding everything from the credits section) is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+
+![buttfinity2](https://github.com/user-attachments/assets/d5923fe3-c8ad-45be-b2aa-9161dcbe902f)
+
