@@ -17,15 +17,15 @@ Modular, customizable buttons (and other controls) in a gridfinity layout, allow
 - use as a MIDI controller (using a RP2040, no tutorial yet for that either)
 - anything else you can think of
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Work in progress. Don't expect everything to work perfectly yet.
 
-> [!NOTE]  
+> [!NOTE]
 > No programming necessary, some soldering is required.  
 
 ## How to use
 
-> [!NOTE]  
+> [!NOTE]
 > This documentation is for the ESP32 or ESP8266 version only, there is no tutorial for the RP2040 version yet.
 
 1. Get the parts if you don't have them yet, see [Hardware Guide](Hardware.md)
