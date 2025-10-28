@@ -1,7 +1,3 @@
----
-title: Quick Start
----
-
 ![buttfinity1](https://github.com/user-attachments/assets/7be77395-7d78-468e-be83-d2ecec9adc5f)
 
 # Buttfinity
