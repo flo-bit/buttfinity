@@ -12,4 +12,4 @@ permissions:
 
 jobs:
     docs:
-        uses: flo-bit/tiny-docs/.github/workflows/tiny-docs.yml@release/v1
+        uses: flo-bit/tiny-docs/.github/workflows/tiny-docs.yml@v1
