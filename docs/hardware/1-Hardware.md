@@ -2,7 +2,7 @@
 ## Parts
 
 > [!NOTE]  
-> Amazon links are to the german amazon store and are not affiliate links, just where I bought the parts, I've tried to always use the most available parts, feel free to buy elsewhere. You can also use different microcontrollers, buttons/sensors, etc, see [Creating your own lids/bins](./docs/creating-your-own-lids-bins.md) for more information.
+> Amazon links are to the german amazon store and are not affiliate links, just where I bought the parts, I've tried to always use the most available parts, feel free to buy elsewhere. You can also use different microcontrollers, buttons/sensors, etc, see [Creating your own lids/bins](./5-creating-your-own-lids-bins.md) for more information.
 
 ### Microcontroller
 
@@ -21,9 +21,9 @@
 ### Buttons/controls
 
 > [!NOTE]  
-> You don't need all of these, mix and match to your needs/preferences. If you have some other buttons/controls, feel free to [design your own lid](./docs/creating-your-own-lids-bins.md) (if you design something with a widely available part, a PR is welcome).
+> You don't need all of these, mix and match to your needs/preferences. If you have some other buttons/controls, feel free to [design your own lid](./5-creating-your-own-lids-bins.md) (if you design something with a widely available part, a PR is welcome).
 
-For corresponding lids, see [Lids.md](./Lids.md).
+For corresponding lids, see [here](./3-Lids.md).
 
 - MX keyswitches [amazon](https://amazon.de/dp/B0BM9KR6QH)
 - Self-locking push button switch 8x8mm [amazon](https://amazon.de/dp/B0D2RKL3L1)

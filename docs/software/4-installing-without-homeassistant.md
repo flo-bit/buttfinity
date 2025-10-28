@@ -25,4 +25,4 @@ docker run --rm --net=host -v "${PWD}":/config -it ghcr.io/esphome/esphome
 
 2. Open [`localhost:6052`](http://localhost:6052) in your browser and you should see the ESPHome dashboard.
 
-Next follow the instructions to [install ESPHome](./install-esphome-on-esp.md) on your ESP32 D1 Mini, then the instructions to [simulate a BLE keyboard](./using-as-ble-keyboard.md).
+Next follow the instructions to [install ESPHome](./1-install-esphome.md) on your ESP32 D1 Mini, then the instructions to [simulate a BLE keyboard](./2-using-as-ble-keyboard.md).

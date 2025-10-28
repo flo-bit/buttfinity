@@ -28,16 +28,12 @@ Modular, customizable buttons (and other controls) in a gridfinity layout, allow
 > [!NOTE]
 > This documentation is for the ESP32 or ESP8266 version only, there is no tutorial for the RP2040 version yet.
 
-1. Get the parts if you don't have them yet, see [Hardware Guide](Hardware.md)
-2. 3D print the bins and lids, see [3D Printing](docs/3d-printing.md)
-2. Install ESPHome, see [ESPHome Guide](docs/install-esphome.md)
+1. Get the parts if you don't have them yet, see [Hardware Guide](docs/hardware/1-Hardware.md)
+2. 3D print the bins and lids, see [3D Printing](docs/hardware/2-3d-printing.md)
+2. Install ESPHome, see [ESPHome Guide](docs/software/1-install-esphome.md)
 3. Either:
-	- turn your Buttfinity into a BLE keyboard, see [Using as BLE Keyboard](docs/using-as-ble-keyboard.md)
-	- or add buttons to your Home Assistant, see [Add Buttons to Home Assistant](docs/add-buttons-to-homeassistant.md)
-
-## Creating your own lids/bins
-
-[Creating your own lids/bins](docs/creating-your-own-lids-bins.md).
+	- turn your Buttfinity into a BLE keyboard, see [Using as BLE Keyboard](docs/software/2-using-as-ble-keyboard.md)
+	- or add buttons to your Home Assistant, see [Add Buttons to Home Assistant](docs/software/3-add-buttons-to-homeassistant.md)
 
 ## Credits
 

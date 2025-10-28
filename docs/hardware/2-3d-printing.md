@@ -1,6 +1,6 @@
 # 3D Printing
 
-Choose the lids you want to print depending on the buttons/controls you want to use, see [all available lids here](../Lids.md).
+Choose the lids you want to print depending on the buttons/controls you want to use, see [all available lids here](./3-Lids.md).
 
 You can find the stls for all models in the `stls/` folder or get the print profile with [all lids and bins on makerworld](https://makerworld.com/en/models/1834693-buttfinity-smart-gridfinity-buttons). 
 

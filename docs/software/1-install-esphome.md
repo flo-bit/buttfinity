@@ -1,7 +1,7 @@
 # Installing ESPHome
 
 > [!NOTE]  
-> If you don't have Home Assistant and just want to use Buttfinity as a BLE keyboard, instead of step 1, follow [the instructions here](./installing-without-homeassistant.md). 
+> If you don't have Home Assistant and just want to use Buttfinity as a BLE keyboard, instead of step 1, follow [the instructions here](./4-installing-without-homeassistant.md). 
 
 
 1. Add ESPHome to your Home Assistant by clicking [this link](https://my.home-assistant.io/redirect/supervisor_addon/?addon=5c53de3b_esphome&repository_url=https%3A%2F%2Fgithub.com%2Fesphome%2Fhome-assistant-addon) and clicking "Install". 
@@ -44,4 +44,4 @@ esp8266:
 
 12. Click "Install" and add the project you downloaded from the ESPHome Device Builder and wait until it's done installing.
 
-13. From now on you can flash you microcontroller wirelessly in the ESPHome Device Builder, you can either [add buttons to connect to Home Assistant](./add-buttons-to-homeassistant.md) there or [use it as a BLE keyboard](./using-as-ble-keyboard.md)
+13. From now on you can flash you microcontroller wirelessly in the ESPHome Device Builder, you can either [add buttons to connect to Home Assistant](./3-add-buttons-to-homeassistant.md) there or [use it as a BLE keyboard](./2-using-as-ble-keyboard.md)
